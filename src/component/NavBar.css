@@ -1,0 +1,25 @@
+.NavBar {
+    display: flex;
+    align-items: center;
+    background-color: chartreuse;
+    color: black;
+    min-height: 100px;
+  
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.logoCarrito {
+    height: 40px;
+    padding-right: 80px;
+}
