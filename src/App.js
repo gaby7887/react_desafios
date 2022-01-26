@@ -1,16 +1,21 @@
-//import logo from './logo.svg';
 import './App.css';
+import ItemListContainer from './component/ItemListContainer';
 
 import NavBar from './component/NavBar';
+
 
 const App = () => {
   return (
     <>
-      <NavBar />
-      <h1>Tienda Tenis</h1>
+      <div>
+        <NavBar />
+        <ItemListContainer greetings=" Hola! " />
+        <ItemListContainer greetings=" Hello! " />
+      </div>  
     </>
   );
 };
-  
+
+
     
 export default App;

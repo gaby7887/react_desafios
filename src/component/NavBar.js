@@ -1,19 +1,19 @@
 import "./NavBar.css";
-import img from './Imagenes/carrito.png';
+import IconoCart from "./CartWidget";
 
 const NavBar = () => {
     return (
+        
         <nav className="NavBar">
             <ul>
                 <li>Home</li>
                 <li>Galeria</li>
                 <li>Contacto</li>
             </ul>
-            <div>
-                <img className='logoCarrito' src={img} alt='logo' />
-            </div>
+            <IconoCart />
         </nav>
-    )
-}
+        
+    );
+};
 
 export default NavBar
