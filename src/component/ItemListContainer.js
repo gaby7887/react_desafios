@@ -10,3 +10,16 @@ function ItemListContainer ( props ) {
 }
 
 export default ItemListContainer;
+
+
+/* Este componente es igual al de arriba pero con las props desestructuradas 
+
+function ItemListContainer ({greetings}) {
+
+  return (
+      <h1 className="title">
+          {greetings} Bienvenidos a la tienda de tenis
+      </h1>
+  );
+}
+*/ 
