@@ -1,5 +1,5 @@
 import "./NavBar.css";
-import IconoCart from "./CartWidget";
+import CartWidget from "../CardWiget/CartWidget";
 
 const NavBar = () => {
     return (
@@ -10,10 +10,10 @@ const NavBar = () => {
                 <li>Galeria</li>
                 <li>Contacto</li>
             </ul>
-            <IconoCart />
+            <CartWidget />
         </nav>
         
     );
 };
 
-export default NavBar
+export default NavBar;

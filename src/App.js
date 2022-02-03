@@ -1,17 +1,17 @@
 import React from 'react';
 import './App.css';
-import ItemListContainer from './component/ItemListContainer';
-import ItemCount from './component/ItemCount/ItemCount';
-import NavBar from './component/NavBar';
+import ItemListContainer from './Containers/ItemListContainer';
+import ItemCount from '../src/component/ItemCount/ItemCount';
+import NavBar from './component/NavBar/NavBar';
 
 const App = () => {
   return (
     <>
     <div>
         <NavBar />
-        <ItemListContainer greetings=" Hola! " />
-        <ItemListContainer greetings=" Hello! " />
+        <ItemListContainer />
         <ItemCount stock={6} initial={1} />
+        
     </div>
     </>
   );
